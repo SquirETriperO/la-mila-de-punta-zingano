@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(12,12,12);
+}
+
+h1{
+    padding: 2rem;
+}
+header a{
+    padding: 2rem;
+    margin: 1rem;
+    text-decoration: none;
+    width: 250px;
+    color: #dfbf4d;
+
+}
+.contactos{
+color: yellow;
+}
+main{
+    padding: 4rem;
+}
+.logo{
+    width: 800px;
+}
+p{
+    color: #dfbf4d;
+    padding: 4rem;
+}
+footer a{
+    padding: 0.5rem;
+    text-decoration: none;
+    width: 150px;
+    color: #dfbf4d;
+}
+i{
+    padding: 0.5rem;
+    font-size: 2rem;
+    width: 140px;
+    color: #dfbf4d;
+}
+
+/* LOCALES */
+.lp{
+    height: 55vh;
+}
+.bsso{
+    height: 55vh;
+}
+
+/* PRODUCTOS */
+
+
+/* QUIENES SOMOS */
