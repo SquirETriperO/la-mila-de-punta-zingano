@@ -1,53 +1,99 @@
-body{
-    background-color: rgb(12,12,12);
+body {
+    background-color: rgb(12, 12, 12);
 }
 
-h1{
+h1 {
     padding: 2rem;
 }
-header a{
-    padding: 2rem;
-    margin: 1rem;
+
+header a {
     text-decoration: none;
-    width: 250px;
     color: #dfbf4d;
+    transform: translateX(45px);
+}
 
+.contactos {
+    color: yellow;
 }
-.contactos{
-color: yellow;
-}
-main{
+
+main {
     padding: 4rem;
 }
-.logo{
+
+.logo {
     width: 800px;
 }
-p{
+
+p {
     color: #dfbf4d;
     padding: 4rem;
 }
-footer a{
+
+footer a {
     padding: 0.5rem;
     text-decoration: none;
     width: 150px;
     color: #dfbf4d;
 }
-i{
+
+i {
     padding: 0.5rem;
     font-size: 2rem;
     width: 140px;
     color: #dfbf4d;
 }
 
+
 /* LOCALES */
-.lp{
-    height: 55vh;
-}
-.bsso{
+.lp {
     height: 55vh;
 }
 
-/* PRODUCTOS */
+.bsso {
+    height: 55vh;
+}
 
+/* CONTACTOS */
 
-/* QUIENES SOMOS */
+.form {
+    text-align: center;
+}
+
+.form__label {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    width: 60%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.texto {
+    height: 10rem;
+    resize: none;
+}
+
+.form-control:focus {
+    outline: none;
+}
+
+.form__label:focus {
+    outline: none;
+}
+
+.form__label--submit {
+    background-color: rgb(12, 12, 12);
+    margin-top: 1.8rem;
+    border-radius: 0.3rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form__label--submit:hover {
+    background-color: #00385c;
+}
